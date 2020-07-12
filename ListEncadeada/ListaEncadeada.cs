@@ -33,23 +33,10 @@ namespace ListEncadeada
             return this.element;
         }
 
-        public void addElementAtBegin(T value)
+        public void addElement(T value)
         {
-            ListaEncadeada<T> novo = new ListaEncadeada<T>();
-            novo.element = value;
-            novo.next = null;
-            first.next = novo;
-
-        }
-        public void addElementAtEnd(T value)
-        {
-            ListaEncadeada<T> novo = new ListaEncadeada<T>();
-            novo = first.next;
-            while (novo.next != null)
-                novo = novo.next;
-            novo.next = novo;
-            novo.element = value;
-            novo.next = null;
+            ListaEncadeada<T> novo = new ListaEncadeada<T>(value);
+            next = novo;
         }
 
         private ListaEncadeada()

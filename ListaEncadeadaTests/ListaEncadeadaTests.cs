@@ -35,18 +35,10 @@ namespace ListEncadeada.Tests
         }
 
         [TestMethod()]
-        public void createListaEncadeadaAndAddOneElementAtBeginTest()
+        public void createListaEncadeadaAndAddOneElementTest()
         {
             ListaEncadeada<int> _ = ListaEncadeada<int>.createListaEncadeada(1);
-            _.addElementAtBegin(1);
-            Assert.AreEqual(2, _.size());
-        }
-
-        [TestMethod()]
-        public void createListaEncadeadaAndAddOneElementToEndTest()
-        {
-            ListaEncadeada<int> _ = ListaEncadeada<int>.createListaEncadeada(1);
-            _.addElementAtEnd(2);
+            _.addElement(1);
             Assert.AreEqual(2, _.size());
         }
     }
