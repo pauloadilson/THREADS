@@ -35,7 +35,8 @@ namespace ListEncadeada
 
         public void addElement(T value)
         {
-            ListaEncadeada<T> novo = new ListaEncadeada<T>(value);
+            ListaEncadeada<T> novo = new ListaEncadeada<T>();
+            novo.element = value;
             next = novo;
         }
 
