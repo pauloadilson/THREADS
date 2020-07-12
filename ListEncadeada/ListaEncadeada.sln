@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaEncadeada", "ListaEncadeada.csproj", "{7EA66925-7C7C-43A0-83BA-EFA335150DDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaEncadeadaTests", "..\ListaEncadeadaTests\ListaEncadeadaTests.csproj", "{4CF453CE-5842-44F7-A816-0BC835D4175F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EA66925-7C7C-43A0-83BA-EFA335150DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EA66925-7C7C-43A0-83BA-EFA335150DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EA66925-7C7C-43A0-83BA-EFA335150DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EA66925-7C7C-43A0-83BA-EFA335150DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CF453CE-5842-44F7-A816-0BC835D4175F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CF453CE-5842-44F7-A816-0BC835D4175F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CF453CE-5842-44F7-A816-0BC835D4175F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CF453CE-5842-44F7-A816-0BC835D4175F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B981EF5E-2561-4685-A345-A3F7EF1B82F6}
+	EndGlobalSection
+EndGlobal
